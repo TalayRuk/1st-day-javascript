@@ -1,3 +1,14 @@
 #result {
   display: hide;
 }
+
+#clickme {
+  background-color: #94ffff;
+  font-weight: 700;
+}
+#cal {
+  width: 15%;
+  height: auto;
+  position: relative;
+  Left: 10px;
+}

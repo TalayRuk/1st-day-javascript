@@ -1,3 +1,5 @@
+
+
 // Business logic:
 
   var add = function (number1, number2) {
@@ -28,13 +30,16 @@ $(document).ready(function() {
   $("#output").text(result);
 
   });
-  $("form#add").submit(function(event) {
-  event.preventDefault();
-  var number1 = parseInt($("#add1").val());
-  var number2 = parseInt($("#add2").val());
 
-  var result = subtract(number1, number2);
-  $("#output").text(result);
+  $("#clickme").click(function() {
+    $("#cal").animate({
+      opacity: 0.25,
+      left: "+=50",
+      height: "swing"
+    }, 5000, function() {
+      //Animation complete.
+    });
   });
+
 
 });
